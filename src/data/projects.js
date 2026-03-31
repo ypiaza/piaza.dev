@@ -1,11 +1,12 @@
 import auralabImg from '../assets/auralab.png';
 import crivusImg from '../assets/crivus.png';
+import advImg from '../assets/adveass.png';
 
 export const projects = [
     {
         title: 'Advogados & Associados',
         category: 'Institucional',
-        image: '../src/assets/adveass.png',
+        image: advImg,
         description: 'Autoridade e profissionalismo para advogados',
         link:'https://advogadosassociados.vercel.app/'
     },
