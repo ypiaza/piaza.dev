@@ -1,3 +1,6 @@
+import auralabImg from '../assets/auralab.png';
+import crivusImg from '../assets/crivus.png';
+
 export const projects = [
     {
         title: 'Advogados & Associados',
@@ -9,15 +12,15 @@ export const projects = [
     {
         title: 'AuraLab',
         category: 'Landing Page',
-        image: '../src/assets/auralab.png',
+        image: auralabImg, // Use a variável importada
         description: 'Conversão otimizada',
-        link:'https://auralab-three.vercel.app/'
+        link: 'https://auralab-three.vercel.app/'
     },
     {
         title: 'Crivus Digital',
         category: 'Web Design',
-        image: '../src/assets/crivus.png',
-        description: 'Layout intuitivo e que passa autoridade',
-        link:'https://crivusdigital.vercel.app/'
+        image: crivusImg,
+        description: 'Layout intuitivo',
+        link: 'https://crivusdigital.vercel.app/'
     }
 ];
