@@ -1,5 +1,12 @@
 export const projects = [
     {
+        title: 'Advogados & Associados',
+        category: 'Institucional',
+        image: '../src/assets/adveass.png',
+        description: 'Autoridade e profissionalismo para advogados',
+        link:'https://advogadosassociados.vercel.app/'
+    },
+    {
         title: 'AuraLab',
         category: 'Landing Page',
         image: '../src/assets/auralab.png',
