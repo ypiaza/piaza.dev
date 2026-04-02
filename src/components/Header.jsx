@@ -28,7 +28,7 @@ export function Header() {
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="cursor-pointer" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
-            <img src={logo} className='w-10' alt="Logo" />
+            <img src={logo} className='w-10 md:w-8' alt="Logo" />
           </div>
 
           {/* Desktop Menu */}

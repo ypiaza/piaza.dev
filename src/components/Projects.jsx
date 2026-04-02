@@ -21,7 +21,7 @@ export function Projects() {
               rel="noopener noreferrer" 
               className="group cursor-pointer block"
             >
-              <div className="relative overflow-hidden border-2 border-black aspect-[4/3] bg-gray-100">
+              <div className="relative overflow-hidden rounded shadow-xl shadow-black/20 aspect-auto bg-gray-100">
                 <img
                   src={project.image}
                   alt={project.title}
