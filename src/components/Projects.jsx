@@ -2,11 +2,13 @@ import { projects } from '../data/projects'
 
 export function Projects() {
   return (
-    <section id="projetos" className="min-h-screen py-20 px-4 sm:px-6 lg:px-8 bg-white">
-      <div className="max-w-7xl mx-auto">
-        <div className="mb-16 text-center">
-          <h2 className="mb-4 text-3xl sm:text-4xl md:text-5xl tracking-tight">MEU PORTIFÓLIO</h2>
-          <div className="w-20 h-1 bg-black mx-auto"></div>
+    <section id="projetos" className="py-20 md:py-32 px-6 bg-white text-black transition-all">
+      <div className="max-w-5xl mx-auto">
+        <div className="mb-16 md:mb-24 text-center md:text-left">
+          <h2 className="text-4xl md:text-5xl font-black tracking-tighter uppercase leading-none">
+            Portifólio
+          </h2>
+          <div className="w-16 h-1 bg-black mt-6 mx-auto md:mx-0"></div>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

@@ -1,10 +1,10 @@
 import { useState } from 'react';
-import logo from '../assets/piazalogo0.png';
+import logo from '../assets/logo.svg';
 
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  // FUNÇÃO CORRIGIDA: Agora recebe o sectionId e calcula o offset
+
   const scrollToSection = (sectionId) => {
     const element = document.getElementById(sectionId);
     if (element) {
@@ -24,11 +24,11 @@ export function Header() {
   };
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-white border-b-2 border-black">
+    <header className="fixed top-0 left-0 right-0 z-50 backdrop-blur-sm bg-white/80 border-b border-black">
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="cursor-pointer" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
-            <img src={logo} className='w-[4rem]' alt="Logo" />
+            <img src={logo} className='w-10' alt="Logo" />
           </div>
 
           {/* Desktop Menu */}

@@ -28,7 +28,7 @@ export function Contact() {
 
         {/* Cabeçalho Minimalista */}
         <div className="mb-16 md:mb-24 text-center md:text-left">
-          <h2 className="text-4xl md:text-7xl font-black tracking-tighter uppercase leading-none">
+          <h2 className="text-4xl md:text-5xl font-black tracking-tighter uppercase leading-none">
             Vamos Conversar?
           </h2>
           <div className="w-16 h-1 bg-black mt-6 mx-auto md:mx-0"></div>
