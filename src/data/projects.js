@@ -1,8 +1,16 @@
 import auralabImg from '../assets/auralab.png';
 import crivusImg from '../assets/crivus.png';
 import advImg from '../assets/adveass.png';
+import clinica from '../assets/clinicaprot.png'
 
 export const projects = [
+    {
+        title: 'Clinica Prototype',
+        category: 'Institucional',
+        image: clinica,
+        description: 'Autoridade e profissionalismo para clínicas',
+        link:'https://clinicaprot.vercel.app/'
+    },
     {
         title: 'Advogados & Associados',
         category: 'Institucional',
