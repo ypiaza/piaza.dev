@@ -77,12 +77,12 @@ export function Contact() {
             <div>
               <p className="text-[10px] font-black text-gray-400 uppercase tracking-widest">WhatsApp</p>
               <a
-                href="https://wa.me/5579998671726?text=Olá%20Yuri,%20vim%20pelo%20seu%20portfólio%20e%20gostaria%20de%20falar%20sobre%20um%20projeto."
+                href="https://wa.me/5579996586764?text=Olá%20Yuri,%20vim%20pelo%20seu%20portfólio%20e%20gostaria%20de%20falar%20sobre%20um%20projeto."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="font-medium text-sm md:text-base hover:text-[#25D366] transition-colors"
               >
-                +55 (79) 9 9867-1726
+                +55 (79) 9 9658-6764
               </a>
             </div>
           </div>
