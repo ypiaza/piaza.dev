@@ -5,6 +5,14 @@ import clinica from '../assets/clinicaprot.png'
 
 export const projects = [
     {
+        title: 'Eleva',
+        category: 'Pagina de Links',
+        image: eleva,
+        description: 'Todos os links em um só lugar',
+        link:'https://prot-eleva.vercel.app/',
+        tags: ['Website', 'Conversão']
+    },
+    {
         title: 'Clinica Prototype',
         category: 'Institucional',
         image: clinica,
