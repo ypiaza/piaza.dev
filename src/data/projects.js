@@ -1,8 +1,8 @@
 import auralabImg from '../assets/auralab.png';
 import crivusImg from '../assets/crivus.png';
 import advImg from '../assets/adveass.png';
-import clinica from '../assets/clinicaprot.png'
-import eleva form '../assets/eleva.jpg'
+import clinica from '../assets/clinicaprot.png';
+import eleva form '../assets/eleva.jpg';
 
 export const projects = [
     {
