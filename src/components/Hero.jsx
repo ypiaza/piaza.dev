@@ -20,7 +20,7 @@ export function Hero() {
   return (
     <section className="pt-32 pb-20 lg:pt-28 lg:pb-32 px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
-        <div className="grid lg:grid-cols-2 gap-16 items-center">
+        <div className="flex justify-center gap-16 items-center">
           <div>
             <div className="inline-block px-4 py-1.5 bg-black text-white text-xs tracking-wide mb-6 rounded-full">
               WEB DESIGNER
@@ -49,31 +49,6 @@ export function Hero() {
                 WhatsApp
               </a>
             </div>
-          </div>
-
-          <div className="relative">
-            <div className="hidden lg:block overflow-hidden rounded-lg h-full">
-              <div
-                className="flex transition-transform duration-700 h-full"
-                style={{
-                  transform: `translateX(-${current * 50}%)`,
-                  width: `${projects.length * 50}%`
-                }}
-              >
-                {projects.map((project, index) => (
-                  <div key={index} className="w-1/2 h-full px-2">
-                    <div className="bg-gray-100 rounded-lg overflow-hidden h-full">
-                      <img
-                        src={project.image}
-                        alt={project.title}
-                        className="w-full h-full object-cover"
-                      />
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </div>
-            
           </div>
         </div>
       </div>

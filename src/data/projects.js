@@ -11,7 +11,7 @@ export const projects = [
         image: eleva,
         description: 'Todos os links em um só lugar',
         link:'https://prot-eleva.vercel.app/',
-        tags: ['Website', 'Conversão']
+        tags: ['Pagina de Links', 'Conversão']
     },
     {
         title: 'Clinica Prototype',
